@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+body{
+    position: relative;
+}
+.one{
+    
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+   
+
+}
+.mouse{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    
+}
+
+.cont{
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border: solid 0px;
+    background-color: red;
+    border-radius: 20px;
+}
+.white{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border: solid 0px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.black{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border: solid 0px;
+    background-color: purple;
+    border-radius: 20px;
+}
+.fky{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border: solid 0px;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+
+
+}
+
+
+.d3 {
+    
+    transition: 1;
+    width: 0; 
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #24375B;
+    }
+
+
+    .d14 {
+        transition: 1;
+        margin: 50px 0; 
+        height: 0; 
+        width: 0;
+        position: relative;
+        border-right: 50px solid transparent;
+        border-bottom: 35px solid #E7337A;
+        border-left: 50px solid transparent;
+        transform: rotate(35deg);
+        }
+        .d14:before, 
+        .d14:after {
+        content: "";
+        height: 0; 
+        width: 0;
+        position: absolute;
+        }
+        .d14:before {
+        top: -26px; 
+        left: -32px;
+        border-bottom: 40px solid #E7337A;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        transform: rotate(-35deg);
+        }
+        .d14:after {
+        top: 2px; 
+        left: -53px;
+        border-right: 50px solid transparent;
+        border-bottom: 35px solid #E7337A;
+        border-left: 50px solid transparent;
+        transform: rotate(-70deg);
+        }
+
+        .d21 {
+            transition: 1;
+            width: 100px; 
+            height: 50px;
+            background: white;
+            border-color: black;
+            border-style: solid;
+            border-width: 2px 2px 50px 2px;
+            border-radius: 50%;
+            position: relative;
+            }
+            .d21:before, 
+            .d21:after {
+            content: "";
+            width: 12px; 
+            height: 12px;
+            position: absolute; 
+            top: 50%;
+            border-radius: 50%;
+            }
+            .d21:before {
+            left: 0;
+            background: white;
+            border: 19px solid black;
+            }
+            .d21:after {
+            left: 50%;
+            background: black;
+            border: 19px solid white;
+            }
